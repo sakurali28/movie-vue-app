@@ -14,7 +14,6 @@
    <h2>Movies Index</h2>
    <div v-for="movie in movies">
      <h3>{{ movie.title }}</h3>
-     <p>{{ movie.year }}</p>
      <button v-on:click="showMovie(movie)">more info</button>
    </div>
 
